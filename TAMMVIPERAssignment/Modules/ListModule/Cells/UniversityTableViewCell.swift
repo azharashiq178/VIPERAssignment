@@ -17,7 +17,7 @@ class UniversityTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         mainView.layer.masksToBounds = false
-        mainView.layer.shadowColor = UIColor.black.cgColor
+        mainView.layer.shadowColor = UIColor.shadow.cgColor
         mainView.layer.shadowOpacity = 0.5
         mainView.layer.shadowOffset = CGSize(width: 0, height: 0)
         mainView.layer.shadowRadius = 1

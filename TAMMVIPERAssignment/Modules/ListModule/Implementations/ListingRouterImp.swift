@@ -15,7 +15,9 @@ class ListingRouterImp: ListingRouter, RouterInterface {
         
         let controller = Story.main.loadViewController(type: ViewController.self)
         
-        baseView?.getNavigationController()?.pushViewController(controller, animated: true)
+        if let detailsController = UniversityDetailModule().buildDefault(with: selectedData) {
+            baseView?.getNavigationController()?.pushViewController(detailsController, animated: true)
+        }
     }
     
 }

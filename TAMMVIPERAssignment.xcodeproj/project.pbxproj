@@ -31,6 +31,15 @@
 		7E0BEF102BEA21EA00D7D3B1 /* UniversityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E0BEF0F2BEA21EA00D7D3B1 /* UniversityTableViewCell.xib */; };
 		7E0BEF112BEA21EA00D7D3B1 /* UniversityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF0E2BEA21EA00D7D3B1 /* UniversityTableViewCell.swift */; };
 		7E0BEF192BEA2A3600D7D3B1 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7E0BEF182BEA2A3600D7D3B1 /* RealmSwift */; };
+		7E0BEF1C2BEA3DE000D7D3B1 /* UniversityDetailModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF1B2BEA3DE000D7D3B1 /* UniversityDetailModule.swift */; };
+		7E0BEF202BEA3EC500D7D3B1 /* UniversityDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF1F2BEA3EC500D7D3B1 /* UniversityDetailPresenter.swift */; };
+		7E0BEF222BEA3ECD00D7D3B1 /* UniversityDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF212BEA3ECD00D7D3B1 /* UniversityDetailInteractor.swift */; };
+		7E0BEF242BEA3ED400D7D3B1 /* UniversityDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF232BEA3ED400D7D3B1 /* UniversityDetailRouter.swift */; };
+		7E0BEF262BEA3EDC00D7D3B1 /* UniversityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF252BEA3EDC00D7D3B1 /* UniversityDetailView.swift */; };
+		7E0BEF282BEA3F2A00D7D3B1 /* UniversityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF272BEA3F2A00D7D3B1 /* UniversityDetailViewController.swift */; };
+		7E0BEF2A2BEA3FB900D7D3B1 /* UniversityDetailPresenterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF292BEA3FB900D7D3B1 /* UniversityDetailPresenterImp.swift */; };
+		7E0BEF2C2BEA3FC200D7D3B1 /* UniversityDetailInteractorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF2B2BEA3FC200D7D3B1 /* UniversityDetailInteractorImp.swift */; };
+		7E0BEF2E2BEA3FCA00D7D3B1 /* UniversityDetailRouterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF2D2BEA3FCA00D7D3B1 /* UniversityDetailRouterImp.swift */; };
 		7E25580C2BE9FD4500931591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580B2BE9FD4500931591 /* AppDelegate.swift */; };
 		7E25580E2BE9FD4500931591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580D2BE9FD4500931591 /* SceneDelegate.swift */; };
 		7E2558102BE9FD4500931591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580F2BE9FD4500931591 /* ViewController.swift */; };
@@ -61,6 +70,15 @@
 		7E0BEF0B2BEA216700D7D3B1 /* UITableView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Additions.swift"; sourceTree = "<group>"; };
 		7E0BEF0E2BEA21EA00D7D3B1 /* UniversityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityTableViewCell.swift; sourceTree = "<group>"; };
 		7E0BEF0F2BEA21EA00D7D3B1 /* UniversityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityTableViewCell.xib; sourceTree = "<group>"; };
+		7E0BEF1B2BEA3DE000D7D3B1 /* UniversityDetailModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailModule.swift; sourceTree = "<group>"; };
+		7E0BEF1F2BEA3EC500D7D3B1 /* UniversityDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailPresenter.swift; sourceTree = "<group>"; };
+		7E0BEF212BEA3ECD00D7D3B1 /* UniversityDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailInteractor.swift; sourceTree = "<group>"; };
+		7E0BEF232BEA3ED400D7D3B1 /* UniversityDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailRouter.swift; sourceTree = "<group>"; };
+		7E0BEF252BEA3EDC00D7D3B1 /* UniversityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailView.swift; sourceTree = "<group>"; };
+		7E0BEF272BEA3F2A00D7D3B1 /* UniversityDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailViewController.swift; sourceTree = "<group>"; };
+		7E0BEF292BEA3FB900D7D3B1 /* UniversityDetailPresenterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailPresenterImp.swift; sourceTree = "<group>"; };
+		7E0BEF2B2BEA3FC200D7D3B1 /* UniversityDetailInteractorImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailInteractorImp.swift; sourceTree = "<group>"; };
+		7E0BEF2D2BEA3FCA00D7D3B1 /* UniversityDetailRouterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityDetailRouterImp.swift; sourceTree = "<group>"; };
 		7E2558082BE9FD4500931591 /* TAMMVIPERAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAMMVIPERAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E25580B2BE9FD4500931591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E25580D2BE9FD4500931591 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +116,7 @@
 		7E0BEEE62BEA0A4200D7D3B1 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				7E0BEF1A2BEA3DCB00D7D3B1 /* UniversityDetailModule */,
 				7E0BEEE72BEA0A6B00D7D3B1 /* ListModule */,
 			);
 			path = Modules;
@@ -172,6 +191,38 @@
 				7E0BEF0F2BEA21EA00D7D3B1 /* UniversityTableViewCell.xib */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		7E0BEF1A2BEA3DCB00D7D3B1 /* UniversityDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEF1E2BEA3E3C00D7D3B1 /* Implementations */,
+				7E0BEF1D2BEA3E3A00D7D3B1 /* Interfaces */,
+				7E0BEF1B2BEA3DE000D7D3B1 /* UniversityDetailModule.swift */,
+			);
+			path = UniversityDetailModule;
+			sourceTree = "<group>";
+		};
+		7E0BEF1D2BEA3E3A00D7D3B1 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEF1F2BEA3EC500D7D3B1 /* UniversityDetailPresenter.swift */,
+				7E0BEF212BEA3ECD00D7D3B1 /* UniversityDetailInteractor.swift */,
+				7E0BEF232BEA3ED400D7D3B1 /* UniversityDetailRouter.swift */,
+				7E0BEF252BEA3EDC00D7D3B1 /* UniversityDetailView.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		7E0BEF1E2BEA3E3C00D7D3B1 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEF272BEA3F2A00D7D3B1 /* UniversityDetailViewController.swift */,
+				7E0BEF292BEA3FB900D7D3B1 /* UniversityDetailPresenterImp.swift */,
+				7E0BEF2B2BEA3FC200D7D3B1 /* UniversityDetailInteractorImp.swift */,
+				7E0BEF2D2BEA3FCA00D7D3B1 /* UniversityDetailRouterImp.swift */,
+			);
+			path = Implementations;
 			sourceTree = "<group>";
 		};
 		7E2557FF2BE9FD4500931591 = {
@@ -289,21 +340,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0BEF222BEA3ECD00D7D3B1 /* UniversityDetailInteractor.swift in Sources */,
 				7E0BEEFB2BEA0C8200D7D3B1 /* ListingInteractorImp.swift in Sources */,
 				7E0BEEED2BEA0B1000D7D3B1 /* UIStoryboard+Additions.swift in Sources */,
 				7E0BEEFF2BEA0C9800D7D3B1 /* ListingRouterImp.swift in Sources */,
 				7E0BEF112BEA21EA00D7D3B1 /* UniversityTableViewCell.swift in Sources */,
 				7E0BEEE32BEA062F00D7D3B1 /* NetworkManager.swift in Sources */,
+				7E0BEF242BEA3ED400D7D3B1 /* UniversityDetailRouter.swift in Sources */,
 				7E0BEF042BEA0F2600D7D3B1 /* Router.swift in Sources */,
 				7E0BEEE92BEA0AA400D7D3B1 /* ListModule.swift in Sources */,
+				7E0BEF262BEA3EDC00D7D3B1 /* UniversityDetailView.swift in Sources */,
 				7E2558102BE9FD4500931591 /* ViewController.swift in Sources */,
 				7E0BEEF72BEA0C7200D7D3B1 /* ListingPresenterImp.swift in Sources */,
 				7E25580C2BE9FD4500931591 /* AppDelegate.swift in Sources */,
+				7E0BEF1C2BEA3DE000D7D3B1 /* UniversityDetailModule.swift in Sources */,
+				7E0BEF202BEA3EC500D7D3B1 /* UniversityDetailPresenter.swift in Sources */,
+				7E0BEF282BEA3F2A00D7D3B1 /* UniversityDetailViewController.swift in Sources */,
+				7E0BEF2C2BEA3FC200D7D3B1 /* UniversityDetailInteractorImp.swift in Sources */,
 				7E0BEEDA2BEA055000D7D3B1 /* EndPoint.swift in Sources */,
 				7E0BEF012BEA0EA900D7D3B1 /* ListingView.swift in Sources */,
 				7E0BEEF52BEA0C6A00D7D3B1 /* ListingPresenter.swift in Sources */,
 				7E0BEEEF2BEA0B2B00D7D3B1 /* NSObjectProtocol+Additions.swift in Sources */,
 				7E25580E2BE9FD4500931591 /* SceneDelegate.swift in Sources */,
+				7E0BEF2E2BEA3FCA00D7D3B1 /* UniversityDetailRouterImp.swift in Sources */,
 				7E0BEF082BEA0F5200D7D3B1 /* RouterInterface.swift in Sources */,
 				7E0BEEE12BEA060E00D7D3B1 /* API.swift in Sources */,
 				7E0BEEF32BEA0C1600D7D3B1 /* ListingViewController.swift in Sources */,
@@ -311,6 +370,7 @@
 				7E0BEF062BEA0F3B00D7D3B1 /* BaseView.swift in Sources */,
 				7E0BEEFD2BEA0C8F00D7D3B1 /* ListingRouter.swift in Sources */,
 				7E0BEEF92BEA0C7C00D7D3B1 /* ListingInteractor.swift in Sources */,
+				7E0BEF2A2BEA3FB900D7D3B1 /* UniversityDetailPresenterImp.swift in Sources */,
 				7E0BEF0C2BEA216700D7D3B1 /* UITableView+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
