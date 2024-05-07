@@ -26,6 +26,10 @@
 		7E0BEF042BEA0F2600D7D3B1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF032BEA0F2600D7D3B1 /* Router.swift */; };
 		7E0BEF062BEA0F3B00D7D3B1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF052BEA0F3B00D7D3B1 /* BaseView.swift */; };
 		7E0BEF082BEA0F5200D7D3B1 /* RouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF072BEA0F5200D7D3B1 /* RouterInterface.swift */; };
+		7E0BEF0A2BEA1EDB00D7D3B1 /* UniversityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF092BEA1EDB00D7D3B1 /* UniversityData.swift */; };
+		7E0BEF0C2BEA216700D7D3B1 /* UITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF0B2BEA216700D7D3B1 /* UITableView+Additions.swift */; };
+		7E0BEF102BEA21EA00D7D3B1 /* UniversityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E0BEF0F2BEA21EA00D7D3B1 /* UniversityTableViewCell.xib */; };
+		7E0BEF112BEA21EA00D7D3B1 /* UniversityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF0E2BEA21EA00D7D3B1 /* UniversityTableViewCell.swift */; };
 		7E25580C2BE9FD4500931591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580B2BE9FD4500931591 /* AppDelegate.swift */; };
 		7E25580E2BE9FD4500931591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580D2BE9FD4500931591 /* SceneDelegate.swift */; };
 		7E2558102BE9FD4500931591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580F2BE9FD4500931591 /* ViewController.swift */; };
@@ -52,6 +56,10 @@
 		7E0BEF032BEA0F2600D7D3B1 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		7E0BEF052BEA0F3B00D7D3B1 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		7E0BEF072BEA0F5200D7D3B1 /* RouterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterInterface.swift; sourceTree = "<group>"; };
+		7E0BEF092BEA1EDB00D7D3B1 /* UniversityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityData.swift; sourceTree = "<group>"; };
+		7E0BEF0B2BEA216700D7D3B1 /* UITableView+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Additions.swift"; sourceTree = "<group>"; };
+		7E0BEF0E2BEA21EA00D7D3B1 /* UniversityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UniversityTableViewCell.swift; sourceTree = "<group>"; };
+		7E0BEF0F2BEA21EA00D7D3B1 /* UniversityTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UniversityTableViewCell.xib; sourceTree = "<group>"; };
 		7E2558082BE9FD4500931591 /* TAMMVIPERAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAMMVIPERAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E25580B2BE9FD4500931591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E25580D2BE9FD4500931591 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -96,6 +104,7 @@
 		7E0BEEE72BEA0A6B00D7D3B1 /* ListModule */ = {
 			isa = PBXGroup;
 			children = (
+				7E0BEF0D2BEA21CD00D7D3B1 /* Cells */,
 				7E0BEEF12BEA0BF400D7D3B1 /* Implementations */,
 				7E0BEEF02BEA0BED00D7D3B1 /* Interfaces */,
 				7E0BEEE82BEA0AA400D7D3B1 /* ListModule.swift */,
@@ -116,6 +125,7 @@
 			children = (
 				7E0BEEEC2BEA0B1000D7D3B1 /* UIStoryboard+Additions.swift */,
 				7E0BEEEE2BEA0B2B00D7D3B1 /* NSObjectProtocol+Additions.swift */,
+				7E0BEF0B2BEA216700D7D3B1 /* UITableView+Additions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -138,6 +148,7 @@
 				7E0BEEF62BEA0C7200D7D3B1 /* ListingPresenterImp.swift */,
 				7E0BEEFA2BEA0C8200D7D3B1 /* ListingInteractorImp.swift */,
 				7E0BEEFE2BEA0C9800D7D3B1 /* ListingRouterImp.swift */,
+				7E0BEF092BEA1EDB00D7D3B1 /* UniversityData.swift */,
 			);
 			path = Implementations;
 			sourceTree = "<group>";
@@ -150,6 +161,15 @@
 				7E0BEF072BEA0F5200D7D3B1 /* RouterInterface.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		7E0BEF0D2BEA21CD00D7D3B1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEF0E2BEA21EA00D7D3B1 /* UniversityTableViewCell.swift */,
+				7E0BEF0F2BEA21EA00D7D3B1 /* UniversityTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		7E2557FF2BE9FD4500931591 = {
@@ -252,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E2558152BE9FD4600931591 /* Assets.xcassets in Resources */,
+				7E0BEF102BEA21EA00D7D3B1 /* UniversityTableViewCell.xib in Resources */,
 				7E2558182BE9FD4600931591 /* Base in Resources */,
 				7E2558132BE9FD4500931591 /* Base in Resources */,
 			);
@@ -267,6 +288,7 @@
 				7E0BEEFB2BEA0C8200D7D3B1 /* ListingInteractorImp.swift in Sources */,
 				7E0BEEED2BEA0B1000D7D3B1 /* UIStoryboard+Additions.swift in Sources */,
 				7E0BEEFF2BEA0C9800D7D3B1 /* ListingRouterImp.swift in Sources */,
+				7E0BEF112BEA21EA00D7D3B1 /* UniversityTableViewCell.swift in Sources */,
 				7E0BEEE32BEA062F00D7D3B1 /* NetworkManager.swift in Sources */,
 				7E0BEF042BEA0F2600D7D3B1 /* Router.swift in Sources */,
 				7E0BEEE92BEA0AA400D7D3B1 /* ListModule.swift in Sources */,
@@ -281,9 +303,11 @@
 				7E0BEF082BEA0F5200D7D3B1 /* RouterInterface.swift in Sources */,
 				7E0BEEE12BEA060E00D7D3B1 /* API.swift in Sources */,
 				7E0BEEF32BEA0C1600D7D3B1 /* ListingViewController.swift in Sources */,
+				7E0BEF0A2BEA1EDB00D7D3B1 /* UniversityData.swift in Sources */,
 				7E0BEF062BEA0F3B00D7D3B1 /* BaseView.swift in Sources */,
 				7E0BEEFD2BEA0C8F00D7D3B1 /* ListingRouter.swift in Sources */,
 				7E0BEEF92BEA0C7C00D7D3B1 /* ListingInteractor.swift in Sources */,
+				7E0BEF0C2BEA216700D7D3B1 /* UITableView+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

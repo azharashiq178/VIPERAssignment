@@ -11,14 +11,23 @@ class ListingViewController: UIViewController, ListingView {
     
     var presenter: ListingPresenterImp?
     
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         self.configureNavigationBar()
+        self.configureTableView()
         self.title = "Home"
     }
     
+    
+    func configureTableView() {
+        self.tableView.registerNib(from: UniversityTableViewCell.self)
+        self.tableView.estimatedRowHeight = 60
+        self.tableView.rowHeight = UITableView.automaticDimension
+    }
 
     /*
     // MARK: - Navigation
@@ -29,5 +38,34 @@ class ListingViewController: UIViewController, ListingView {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    func reloadData() {
+        self.tableView.reloadData()
+    }
 
+}
+
+
+extension ListingViewController: UITableViewDataSource {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return presenter?.numberOfRows(in: section) ?? 0
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        
+        guard let cell = tableView.dequeue(cell: UniversityTableViewCell.self) as? UniversityTableViewCell else {
+            return UITableViewCell()
+        }
+        cell.nameLabel.text = presenter?.universitiesList[indexPath.row].name
+        cell.stateLabel.text = presenter?.universitiesList[indexPath.row].country
+        
+        return cell
+    }
+    
 }

@@ -28,11 +28,19 @@ class ListingInteractorImp: ListingInteractor {
             switch response {
             case .success(let result):
                 print(result)
+                
+                if let list = try? JSONDecoder().decode([UniversityData].self, from: result) {
+                    weakSelf.presenter?.updateUniversities(newList: list)
+                }
+                else {
+                    
+                }
+                
                 break
             case .failure(let error):
                 print(error)
                 break
-            }   
+            }
             
         }
     }

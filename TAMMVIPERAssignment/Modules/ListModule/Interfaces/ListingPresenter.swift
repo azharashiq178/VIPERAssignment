@@ -13,5 +13,6 @@ protocol ListingPresenter {
     var interactor: ListingInteractorImp? { get set }
     var router: ListingRouterImp? { get set }
     
-    
+    func updateUniversities(newList: [UniversityData])
+    func numberOfRows(in section: Int) -> Int
 }

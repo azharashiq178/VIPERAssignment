@@ -15,4 +15,17 @@ class ListingPresenterImp : ListingPresenter {
     
     var router: ListingRouterImp?
     
+    var universitiesList: [UniversityData] = [UniversityData]()
+    
+    
+    func updateUniversities(newList: [UniversityData]) {
+        self.universitiesList = newList
+        self.view?.reloadData()
+    }
+    
+    
+    func numberOfRows(in section: Int) -> Int {
+        return universitiesList.count
+    }
+    
 }

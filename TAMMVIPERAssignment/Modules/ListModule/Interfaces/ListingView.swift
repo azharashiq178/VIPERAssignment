@@ -11,5 +11,7 @@ protocol ListingView: BaseView {
     
     var presenter: ListingPresenterImp? { get set }
     
+    func reloadData()
+    
     
 }
