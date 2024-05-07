@@ -15,7 +15,7 @@ enum Endpoint: URLDirectable {
         var url = ""
         switch self {
         case .searchUniversities(let countryName):
-            url = "search?country=/\(countryName)"
+            url = "search?country=\(countryName)"
             break
         }
         return NetworkManager.baseURL + "/" + url

@@ -12,6 +12,20 @@
 		7E0BEEDF2BEA05F700D7D3B1 /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 7E0BEEDE2BEA05F700D7D3B1 /* AlamofireDynamic */; };
 		7E0BEEE12BEA060E00D7D3B1 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEE02BEA060E00D7D3B1 /* API.swift */; };
 		7E0BEEE32BEA062F00D7D3B1 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEE22BEA062F00D7D3B1 /* NetworkManager.swift */; };
+		7E0BEEE92BEA0AA400D7D3B1 /* ListModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEE82BEA0AA400D7D3B1 /* ListModule.swift */; };
+		7E0BEEED2BEA0B1000D7D3B1 /* UIStoryboard+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEEC2BEA0B1000D7D3B1 /* UIStoryboard+Additions.swift */; };
+		7E0BEEEF2BEA0B2B00D7D3B1 /* NSObjectProtocol+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEEE2BEA0B2B00D7D3B1 /* NSObjectProtocol+Additions.swift */; };
+		7E0BEEF32BEA0C1600D7D3B1 /* ListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEF22BEA0C1600D7D3B1 /* ListingViewController.swift */; };
+		7E0BEEF52BEA0C6A00D7D3B1 /* ListingPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEF42BEA0C6A00D7D3B1 /* ListingPresenter.swift */; };
+		7E0BEEF72BEA0C7200D7D3B1 /* ListingPresenterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEF62BEA0C7200D7D3B1 /* ListingPresenterImp.swift */; };
+		7E0BEEF92BEA0C7C00D7D3B1 /* ListingInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEF82BEA0C7C00D7D3B1 /* ListingInteractor.swift */; };
+		7E0BEEFB2BEA0C8200D7D3B1 /* ListingInteractorImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEFA2BEA0C8200D7D3B1 /* ListingInteractorImp.swift */; };
+		7E0BEEFD2BEA0C8F00D7D3B1 /* ListingRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEFC2BEA0C8F00D7D3B1 /* ListingRouter.swift */; };
+		7E0BEEFF2BEA0C9800D7D3B1 /* ListingRouterImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEEFE2BEA0C9800D7D3B1 /* ListingRouterImp.swift */; };
+		7E0BEF012BEA0EA900D7D3B1 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF002BEA0EA900D7D3B1 /* ListingView.swift */; };
+		7E0BEF042BEA0F2600D7D3B1 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF032BEA0F2600D7D3B1 /* Router.swift */; };
+		7E0BEF062BEA0F3B00D7D3B1 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF052BEA0F3B00D7D3B1 /* BaseView.swift */; };
+		7E0BEF082BEA0F5200D7D3B1 /* RouterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF072BEA0F5200D7D3B1 /* RouterInterface.swift */; };
 		7E25580C2BE9FD4500931591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580B2BE9FD4500931591 /* AppDelegate.swift */; };
 		7E25580E2BE9FD4500931591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580D2BE9FD4500931591 /* SceneDelegate.swift */; };
 		7E2558102BE9FD4500931591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580F2BE9FD4500931591 /* ViewController.swift */; };
@@ -24,6 +38,20 @@
 		7E0BEED92BEA055000D7D3B1 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 		7E0BEEE02BEA060E00D7D3B1 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		7E0BEEE22BEA062F00D7D3B1 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7E0BEEE82BEA0AA400D7D3B1 /* ListModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModule.swift; sourceTree = "<group>"; };
+		7E0BEEEC2BEA0B1000D7D3B1 /* UIStoryboard+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Additions.swift"; sourceTree = "<group>"; };
+		7E0BEEEE2BEA0B2B00D7D3B1 /* NSObjectProtocol+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObjectProtocol+Additions.swift"; sourceTree = "<group>"; };
+		7E0BEEF22BEA0C1600D7D3B1 /* ListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingViewController.swift; sourceTree = "<group>"; };
+		7E0BEEF42BEA0C6A00D7D3B1 /* ListingPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingPresenter.swift; sourceTree = "<group>"; };
+		7E0BEEF62BEA0C7200D7D3B1 /* ListingPresenterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingPresenterImp.swift; sourceTree = "<group>"; };
+		7E0BEEF82BEA0C7C00D7D3B1 /* ListingInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingInteractor.swift; sourceTree = "<group>"; };
+		7E0BEEFA2BEA0C8200D7D3B1 /* ListingInteractorImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingInteractorImp.swift; sourceTree = "<group>"; };
+		7E0BEEFC2BEA0C8F00D7D3B1 /* ListingRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingRouter.swift; sourceTree = "<group>"; };
+		7E0BEEFE2BEA0C9800D7D3B1 /* ListingRouterImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingRouterImp.swift; sourceTree = "<group>"; };
+		7E0BEF002BEA0EA900D7D3B1 /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
+		7E0BEF032BEA0F2600D7D3B1 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		7E0BEF052BEA0F3B00D7D3B1 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		7E0BEF072BEA0F5200D7D3B1 /* RouterInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterInterface.swift; sourceTree = "<group>"; };
 		7E2558082BE9FD4500931591 /* TAMMVIPERAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TAMMVIPERAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E25580B2BE9FD4500931591 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7E25580D2BE9FD4500931591 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +85,73 @@
 			path = NetworkManager;
 			sourceTree = "<group>";
 		};
+		7E0BEEE62BEA0A4200D7D3B1 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEEE72BEA0A6B00D7D3B1 /* ListModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		7E0BEEE72BEA0A6B00D7D3B1 /* ListModule */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEEF12BEA0BF400D7D3B1 /* Implementations */,
+				7E0BEEF02BEA0BED00D7D3B1 /* Interfaces */,
+				7E0BEEE82BEA0AA400D7D3B1 /* ListModule.swift */,
+			);
+			path = ListModule;
+			sourceTree = "<group>";
+		};
+		7E0BEEEA2BEA0AFA00D7D3B1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEEEB2BEA0B0200D7D3B1 /* Extensions */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		7E0BEEEB2BEA0B0200D7D3B1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEEEC2BEA0B1000D7D3B1 /* UIStoryboard+Additions.swift */,
+				7E0BEEEE2BEA0B2B00D7D3B1 /* NSObjectProtocol+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7E0BEEF02BEA0BED00D7D3B1 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEEF42BEA0C6A00D7D3B1 /* ListingPresenter.swift */,
+				7E0BEEF82BEA0C7C00D7D3B1 /* ListingInteractor.swift */,
+				7E0BEEFC2BEA0C8F00D7D3B1 /* ListingRouter.swift */,
+				7E0BEF002BEA0EA900D7D3B1 /* ListingView.swift */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		7E0BEEF12BEA0BF400D7D3B1 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEEF22BEA0C1600D7D3B1 /* ListingViewController.swift */,
+				7E0BEEF62BEA0C7200D7D3B1 /* ListingPresenterImp.swift */,
+				7E0BEEFA2BEA0C8200D7D3B1 /* ListingInteractorImp.swift */,
+				7E0BEEFE2BEA0C9800D7D3B1 /* ListingRouterImp.swift */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		7E0BEF022BEA0F1800D7D3B1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7E0BEF032BEA0F2600D7D3B1 /* Router.swift */,
+				7E0BEF052BEA0F3B00D7D3B1 /* BaseView.swift */,
+				7E0BEF072BEA0F5200D7D3B1 /* RouterInterface.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		7E2557FF2BE9FD4500931591 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +171,9 @@
 		7E25580A2BE9FD4500931591 /* TAMMVIPERAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				7E0BEF022BEA0F1800D7D3B1 /* Base */,
+				7E0BEEEA2BEA0AFA00D7D3B1 /* Utilities */,
+				7E0BEEE62BEA0A4200D7D3B1 /* Modules */,
 				7E0BEED82BEA053D00D7D3B1 /* NetworkManager */,
 				7E25580B2BE9FD4500931591 /* AppDelegate.swift */,
 				7E25580D2BE9FD4500931591 /* SceneDelegate.swift */,
@@ -166,12 +264,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0BEEFB2BEA0C8200D7D3B1 /* ListingInteractorImp.swift in Sources */,
+				7E0BEEED2BEA0B1000D7D3B1 /* UIStoryboard+Additions.swift in Sources */,
+				7E0BEEFF2BEA0C9800D7D3B1 /* ListingRouterImp.swift in Sources */,
 				7E0BEEE32BEA062F00D7D3B1 /* NetworkManager.swift in Sources */,
+				7E0BEF042BEA0F2600D7D3B1 /* Router.swift in Sources */,
+				7E0BEEE92BEA0AA400D7D3B1 /* ListModule.swift in Sources */,
 				7E2558102BE9FD4500931591 /* ViewController.swift in Sources */,
+				7E0BEEF72BEA0C7200D7D3B1 /* ListingPresenterImp.swift in Sources */,
 				7E25580C2BE9FD4500931591 /* AppDelegate.swift in Sources */,
 				7E0BEEDA2BEA055000D7D3B1 /* EndPoint.swift in Sources */,
+				7E0BEF012BEA0EA900D7D3B1 /* ListingView.swift in Sources */,
+				7E0BEEF52BEA0C6A00D7D3B1 /* ListingPresenter.swift in Sources */,
+				7E0BEEEF2BEA0B2B00D7D3B1 /* NSObjectProtocol+Additions.swift in Sources */,
 				7E25580E2BE9FD4500931591 /* SceneDelegate.swift in Sources */,
+				7E0BEF082BEA0F5200D7D3B1 /* RouterInterface.swift in Sources */,
 				7E0BEEE12BEA060E00D7D3B1 /* API.swift in Sources */,
+				7E0BEEF32BEA0C1600D7D3B1 /* ListingViewController.swift in Sources */,
+				7E0BEF062BEA0F3B00D7D3B1 /* BaseView.swift in Sources */,
+				7E0BEEFD2BEA0C8F00D7D3B1 /* ListingRouter.swift in Sources */,
+				7E0BEEF92BEA0C7C00D7D3B1 /* ListingInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
