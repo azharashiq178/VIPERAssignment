@@ -21,6 +21,9 @@ class ListingPresenterImp : ListingPresenter {
     func updateUniversities(newList: [UniversityData]) {
         self.universitiesList = newList
         self.view?.reloadData()
+        if newList.count == 0 {
+            self.view?.showError(with: "Universities Not Found")
+        }
     }
     
     
@@ -28,4 +31,13 @@ class ListingPresenterImp : ListingPresenter {
         return universitiesList.count
     }
     
+    
+    func fetchUniversities() {
+        self.interactor?.getUniversities()
+    }
+    
+    
+    func moveToDetails(from index: Int) {
+        router?.moveToDetails(with: self.universitiesList[index])
+    }
 }

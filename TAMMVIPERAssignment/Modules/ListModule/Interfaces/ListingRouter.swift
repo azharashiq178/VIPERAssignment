@@ -9,4 +9,5 @@ import Foundation
 
 protocol ListingRouter {
     
+    func moveToDetails(with selectedData: UniversityData)
 }

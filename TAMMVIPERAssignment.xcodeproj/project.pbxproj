@@ -30,6 +30,7 @@
 		7E0BEF0C2BEA216700D7D3B1 /* UITableView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF0B2BEA216700D7D3B1 /* UITableView+Additions.swift */; };
 		7E0BEF102BEA21EA00D7D3B1 /* UniversityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E0BEF0F2BEA21EA00D7D3B1 /* UniversityTableViewCell.xib */; };
 		7E0BEF112BEA21EA00D7D3B1 /* UniversityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0BEF0E2BEA21EA00D7D3B1 /* UniversityTableViewCell.swift */; };
+		7E0BEF192BEA2A3600D7D3B1 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7E0BEF182BEA2A3600D7D3B1 /* RealmSwift */; };
 		7E25580C2BE9FD4500931591 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580B2BE9FD4500931591 /* AppDelegate.swift */; };
 		7E25580E2BE9FD4500931591 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580D2BE9FD4500931591 /* SceneDelegate.swift */; };
 		7E2558102BE9FD4500931591 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E25580F2BE9FD4500931591 /* ViewController.swift */; };
@@ -75,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E0BEF192BEA2A3600D7D3B1 /* RealmSwift in Frameworks */,
 				7E0BEEDD2BEA05F700D7D3B1 /* Alamofire in Frameworks */,
 				7E0BEEDF2BEA05F700D7D3B1 /* AlamofireDynamic in Frameworks */,
 			);
@@ -225,6 +227,7 @@
 			packageProductDependencies = (
 				7E0BEEDC2BEA05F700D7D3B1 /* Alamofire */,
 				7E0BEEDE2BEA05F700D7D3B1 /* AlamofireDynamic */,
+				7E0BEF182BEA2A3600D7D3B1 /* RealmSwift */,
 			);
 			productName = TAMMVIPERAssignment;
 			productReference = 7E2558082BE9FD4500931591 /* TAMMVIPERAssignment.app */;
@@ -256,6 +259,7 @@
 			mainGroup = 7E2557FF2BE9FD4500931591;
 			packageReferences = (
 				7E0BEEDB2BEA05F700D7D3B1 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				7E0BEF172BEA2A3600D7D3B1 /* XCRemoteSwiftPackageReference "realm-swift" */,
 			);
 			productRefGroup = 7E2558092BE9FD4500931591 /* Products */;
 			projectDirPath = "";
@@ -540,6 +544,14 @@
 				minimumVersion = 5.9.1;
 			};
 		};
+		7E0BEF172BEA2A3600D7D3B1 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -552,6 +564,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7E0BEEDB2BEA05F700D7D3B1 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = AlamofireDynamic;
+		};
+		7E0BEF182BEA2A3600D7D3B1 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E0BEF172BEA2A3600D7D3B1 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

@@ -13,5 +13,6 @@ protocol ListingView: BaseView {
     
     func reloadData()
     
+    func showError(with message: String)
     
 }

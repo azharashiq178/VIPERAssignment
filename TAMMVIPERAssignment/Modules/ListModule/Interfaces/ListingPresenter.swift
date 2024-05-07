@@ -15,4 +15,6 @@ protocol ListingPresenter {
     
     func updateUniversities(newList: [UniversityData])
     func numberOfRows(in section: Int) -> Int
+    func fetchUniversities()
+    func moveToDetails(from index: Int)
 }
